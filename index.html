@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>homeWork JS DOM</title>
+      <script type="text/javascript" src="script.js" defer></script>
+      <link rel="stylesheet" href="style.css" />
+      <meta name="keywords" content="עגלת קניות, הזמנת מוצרים" />
+      <meta name="description" content="הזמנת מוצרים אונליין" />
+   </head>
+   <body>
+
+      <div class ='header'>
+         <div class = 'headerLogo'>
+            <p class="logo" >LOGO</p>
+         </div>
+     
+         <div class = 'cart'>
+            <img class="cartLogo" src="https://cdn-icons-png.flaticon.com/128/419/419910.png" alt="cartPic">
+         <p id ='count'>0</p>
+         </div>
+      </div>
+      <div class="container">
+         <div id="vegTomato">
+            <img class = 'veg' src="https://www.havivian.co.il/image/catalog/agvania.jpg" />
+          </br><h1>עגבנייה 4.5 שח</h1></br>
+            <button onclick="addTomato()">הוסף מוצר</button>
+            <button onclick="removeTomato()">הסר מוצר</button>
+        </div>
+            <div id ="vegCucumber">
+            <img class = 'veg'
+               src="https://st1.foodsd.co.il/Images/Articles/xxl/5xocq218ys83hs1x.jpg"
+            /></br>  <h1>מלפפון 3.5 שח</h1></br>
+            <button onclick="addCucumber()">הוסף מוצר</button>
+            <button onclick="removeCucumber()">הסר מוצר</button>
+        </div>
+        <div id="vegPotato">
+            <img class = 'veg'
+               src="https://www.shefab.co.il/files/products/product96_image1_2020-08-31_10-26-56.jpg"
+            />  </br><h1>תפוח אדמה 4 שח</h1></br>
+            <button onclick="addPotato()">הוסף מוצר</button>
+            <button onclick="removePotato()">הסר מוצר</button>
+        </div>
+         </div>
+      </div>
+      <div class="container1">
+        <div id = "leftAreaClean"></div>
+      <div id="shoppingCartHOne">
+         <h1 class="shoppingCartText">סל הקניות שלי</h1>
+         <div id = "shoppingCartHTwo"> 
+         <div id="shoppingCartH"></div>
+         <div id ='shoppingCartL'>
+         </div>
+       
+      </div>
+         <div id="totalSum">סל הקניות ריק </div>
+         
+      </div>
+      
+
+      <div id="rightAreaClean"></div>
+</div>
+   </body>
+</html>
